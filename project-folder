@@ -1,0 +1,38 @@
+let age = prompt("Enter your age:");
+if (age >= 18) {
+  console.log("You are an adult.");
+} else {
+  console.log("You are a minor.");
+}
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+function calculateTotal(price, quantity) {
+  return price * quantity;
+}
+// For loop
+for (let i = 0; i < 5; i++) {
+  console.log(`Counting: ${i}`);
+}
+
+// While loop
+let count = 5;
+while (count > 0) {
+  console.log(`Countdown: ${count}`);
+  count--;
+}
+// Change text
+document.getElementById("welcome").innerText = "Welcome, Christopher!";
+
+// Toggle class
+document.querySelector("#box").classList.toggle("highlight");
+
+// Create element on the fly
+let newPara = document.createElement("p");
+newPara.innerText = "This paragraph was created with JavaScript.";
+document.body.appendChild(newPara);
+project-folder/
+├── index.html
+├── style.css       (optional but adds visual flair)
+└── script.js
